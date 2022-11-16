@@ -1,0 +1,68 @@
+body{
+    background-color: lavender;
+}
+header{
+    height: 100px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    color: blueviolet;
+}
+.main{
+    /* background-color: lightblue; */
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.item{
+    background-color: violet;
+    height: 300px;
+    width: calc(30% - 15px);
+    color: white;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img1{
+    background-image: url(https://lh3.googleusercontent.com/RSgR4V_lXDe1Glm0C8lH4nh4eBP3_Ddk4_RSbHRikWChBR_HjutpIDczcoG2BRQgBzr68iLGeBTWyks0oJcjaIH2vz4roXQ7X_R2qo408_C9NFP69236Di1HRcGU53BFwBQFSinz);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img2{
+    background-image: url(https://trizio.ru/img-srv01/112018/img_post/top_1000.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img3{
+    background-image: url(https://33krovati.com/d/dub_molochnyy_goluboy_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img4{
+    background-image: url(https://cdn1.ozone.ru/s3/multimedia-y/c1000/6385093618.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img5{
+    background-image: url(https://www.supersvarshik.com/wp-content/uploads/krovat-iz-metalla-g-loft.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img6{
+    background-image: url(https://www.stolplit.ru/upload/resize_cache/iblock/45f/yzyklbijs5ufnq2bnh8ig9yvtef775uq/306_262_0/00000251951-detail.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .item{
+        width: calc(40% - 10px);
+    }
+}
+@media screen and (max-width: 576px){
+    .item{
+        width: calc(50%);
+    }
+}
